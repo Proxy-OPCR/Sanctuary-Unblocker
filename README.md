@@ -10,7 +10,7 @@ npm install
 ```
 buildcommand
 ```
-npm run build
+npm build
 ```
 
 ## discord
