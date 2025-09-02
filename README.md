@@ -6,7 +6,7 @@ render
 
 startcommand
 ```
-npm install
+npm start
 ```
 buildcommand
 ```
