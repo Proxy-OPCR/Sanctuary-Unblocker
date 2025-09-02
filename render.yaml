@@ -1,0 +1,17 @@
+services:
+  sanctuary-unblocker:
+    type: web
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    staticPublishPath: public
+    routes:
+      - src: /
+        dest: index.html
+      - src: /styles/*
+        dest: styles/
+      - src: /scripts/*
+        dest: scripts/
+    healthCheckPath: /
+    autoDeploy: true
